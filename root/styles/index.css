@@ -5,7 +5,7 @@
     font-family: plus jakarta sans;
 
 }
-
+/* Css para el header */
 header {
     background-color: #306bb3;
     height: 15vh;
@@ -54,16 +54,13 @@ header>div {
       
        
 }
+
+/* Css para el main */
+
 main {
     display: flex;
     flex-direction: row;
-
-
-}
-.list1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ 
 }
 
 section {
@@ -73,3 +70,55 @@ section {
     align-items: center;
 
 }
+.d1{
+    
+    height: 33%;
+    width:100%;
+    display: table;
+    /*background-color: aqua;*/
+
+}
+#p1 {
+    font-weight:bolder;
+    font-size: 16px;
+    line-height: 121.2%;
+    color: black;
+    display: table-cell;
+    margin: 0;
+    padding: 0 5rem;
+    vertical-align: bottom;
+    
+}
+#h2 {
+    color: black;
+    display:table-cell;
+    margin: 0;
+    padding: 0 5rem;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 121.2%;
+    text-transform: uppercase;    
+}
+#p2{
+    color: #1A202C;
+    display:table-cell;
+    margin: 0;
+    padding: 0 5rem;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+}
+.list1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
