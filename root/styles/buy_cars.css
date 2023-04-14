@@ -86,12 +86,55 @@ main{
     font-size: 18px;
     line-height: 150%;
     padding: 1%;
-    background-color: aqua;
-    text-align: center;
-    
-
+    text-align: center; 
+}
+#ulnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 370px;
+    margin: 10%;
+  
 }
 
+.grid{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 200px;
+    margin: 5%;
+    
+}
+.sdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 200px;
+   
+}
+.pdiv{
+    background-color:#DEE5ED;
+    width: 304px;
+    height: 388px;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.idiv{
+    background-color: white;
+    width:  90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+   
+}
+.imagen{
+    margin: 10%;
+}
 
 /* Css para el footer */
 
@@ -148,5 +191,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 10px;
+    gap: 50px;
 }
+
